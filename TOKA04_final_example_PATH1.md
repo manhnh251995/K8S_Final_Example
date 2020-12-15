@@ -1,5 +1,5 @@
 PART 1
-Question 1: Create a pod with image nginx called nginx and allow traffic on port 80 ?
+**Question 1: Create a pod with image nginx called nginx and allow traffic on port 80 ?**
 Answer: 
 ```sh
 kubectl run nginx --image=nginx --restart=Never --port=80 
